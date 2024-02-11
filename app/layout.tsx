@@ -4,6 +4,7 @@ import "./globals.css";
 import AsideLeft from "@/components/AsideLeft/AsideLeft";
 import Main from "@/components/Main/Main";
 import AsideRight from "@/components/AsideRight/AsideRight";
+import { QueryClient, QueryClientProvider } from "react-query";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +12,6 @@ export const metadata: Metadata = {
   title: "Social network",
   description: "qwedsa10 social network"
 };
-
 export default function RootLayout({
                                      children
                                    }: Readonly<{
