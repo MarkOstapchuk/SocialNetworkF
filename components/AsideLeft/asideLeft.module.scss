@@ -1,0 +1,15 @@
+.logo {
+  @apply mx-auto mb-32 mt-4;
+}
+.aside {
+  @apply bg-bg text-text;
+  .nav {
+    @apply flex flex-col justify-center text-center;
+    li {
+      @apply my-3;
+      a:hover {
+        @apply text-primary;
+      }
+    }
+  }
+}
